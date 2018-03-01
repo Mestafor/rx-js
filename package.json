@@ -1,0 +1,17 @@
+{
+  "name": "rxjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack -w --mode development --config webpack.config.js --progress",
+    "prod": "webpack --mode production"
+  },
+  "dependencies": {
+    "rx": "^4.1.0",
+    "ts-loader": "^4.0.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  }
+}
